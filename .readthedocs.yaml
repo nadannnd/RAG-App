@@ -1,22 +1,13 @@
-site_name: Document Q&A System
-site_description: A multi-model document question-answering system
-theme:
-  name: material
+version: 2  # Specify the version for Read the Docs configuration
+build:
+  os: ubuntu-22.04  # Specify Ubuntu version
+  tools:
+    python: "3.8"  # Specify Python version
 
-nav:
-  - Home: index.md
-  - Installation: installation.md
-  - Usage Guide: usage.md
-  - API Reference: api-reference.md
-  - Configuration: configuration.md
+sphinx:
+  configuration: docs/source/conf.py  # Specify the location of your Sphinx config file
 
 markdown_extensions:
   - pymdownx.highlight
   - pymdownx.superfences
   - admonition
-
-# Corrected build section with supported Ubuntu OS version
-build:
-  os: ubuntu-22.04  # Choose one of the supported Ubuntu versions
-  tools:
-    python: "3.8"  # Specify Python version
