@@ -1,13 +1,16 @@
-version: "2"
+site_name: Document Q&A System
+site_description: A multi-model document question-answering system
+theme:
+  name: material
 
-build:
-  os: "ubuntu-22.04"
-  tools:
-    python: "3.10"
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - Usage Guide: usage.md
+  - API Reference: api-reference.md
+  - Configuration: configuration.md
 
-python:
-  install:
-    - requirements: docs/requirements.txt
-
-sphinx:
-  configuration: docs/source/conf.py
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - admonition
