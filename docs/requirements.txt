@@ -6,8 +6,9 @@ streamlit==1.17.0
 
 chroma==0.2.0
 
-sphinx==5.0.0
-sphinx-material==0.2.1
+sphinx==4.5.0
+
+#sphinx-material==0.2.1
 myst-parser==0.18.0
 pymdown-extensions==9.1
 
