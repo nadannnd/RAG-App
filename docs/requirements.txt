@@ -1,5 +1,14 @@
 langchain==0.16.0
 langchain-ollama==0.2.0
 langchain-community==0.2.0
+
 streamlit==1.17.0
+
 chroma==0.2.0
+
+sphinx==5.0.0
+sphinx-material==0.2.1
+myst-parser==0.18.0
+pymdown-extensions==9.1
+
+sphinx-rtd-theme==1.0.0
