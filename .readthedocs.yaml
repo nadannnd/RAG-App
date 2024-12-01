@@ -15,8 +15,8 @@ markdown_extensions:
   - pymdownx.superfences
   - admonition
 
-# Add the build section for Windows and Python 3.8+
+# Corrected build section with supported Ubuntu OS version
 build:
-  os: windows  # Use "windows" for the OS type
+  os: ubuntu-22.04  # Choose one of the supported Ubuntu versions
   tools:
-    python: "3.8"  # You can specify Python 3.8 or higher depending on your setup
+    python: "3.8"  # Specify Python version
